@@ -45,7 +45,8 @@ public class SearchFile {
 
 	private static boolean JudgeFileExtensionName(String fileName) {
 		// TODO Auto-generated method stub
-		String regex = "[a-zA-z]*[.][j][a][v][a]";
+//		String regex = "[a-zA-z0-9]*[.][j][a][v][a]";
+		String regex = "[a-zA-z0-9]*[.][t][x][t]";
 		boolean flag = false;
 		flag = fileName.matches(regex);
 		return flag;
